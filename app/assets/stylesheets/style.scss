@@ -16,6 +16,7 @@ body, html{
 }
 .infor-login{
     padding-left: 10px;
+    color: red;
 }
 .infor-login:hover{
     cursor: pointer;
@@ -103,12 +104,12 @@ body, html{
 }
 
 // form login
-.content #form-login{
+.content .form-login{
     width: 400px;
     padding: 10px 20px;
     margin: 0 auto;
 }
-#form-login h2{
+.form-login h2{
     text-align: center;
 }
 #error_explanation h6{
@@ -122,4 +123,29 @@ body, html{
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
+}
+.current-user-infor{
+    color: blue;
+    cursor: pointer;
+}
+.form-edit{
+    width: 500px;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.form-edit h2{
+    text-align: center;
+}
+.row-btn-delete{
+    display: flex;
+}
+.row-btn-delete span{
+    line-height: 38px;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: blue;
+    text-decoration-line: underline;
 }
