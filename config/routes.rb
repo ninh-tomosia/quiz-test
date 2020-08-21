@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   scope module: 'guest' do
     root to: '/guest/home#index'
     resources :home
+    resources :users
   end
 
   
